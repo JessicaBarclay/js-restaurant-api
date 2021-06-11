@@ -5,7 +5,7 @@ const app = express()
 const port = 3000
 
 app.get('/', async (request, response) => {
-    const url = 'www.somefakeurl.com/restaurantdetails' // this raise an error in your terminal
+    const url = 'www.somefakeurl.com/restaurantdetails' // this fake url will raise an error in your terminal
     const restaurants = await axios.get(url)
         .then(response => {
             return response.data
