@@ -1,0 +1,12 @@
+{
+  "name": "js-restaurant-api",
+  "description": "Associate Engineer Tech Test",
+  "repository": "https://github.com/JessicaBarclay/js-restaurant-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  }
+}
